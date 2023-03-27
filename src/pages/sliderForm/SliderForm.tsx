@@ -3,6 +3,7 @@ import "../../App.css";
 
 const SliderForm = () => {
   const [slider, setSlider] = useState<number>(0);
+  
 
   function onChangeSlider(e: React.ChangeEvent<HTMLInputElement>) {
     e.preventDefault();
